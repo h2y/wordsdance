@@ -19,7 +19,7 @@ gulp.task('default', function() {
 //styles
 gulp.task('styles', function() {
     //less & css
-    gulp.src(['lib/styles/*.less', 'lib/styles/*.css'])
+    return gulp.src(['lib/styles/*.less', 'lib/styles/*.css'])
         //.pipe($.sourcemaps.init())
         .pipe($.concat('style.css'))
         .pipe($.less())
@@ -27,13 +27,13 @@ gulp.task('styles', function() {
             browsers: ['> 5% in CN']
         }))
         //.pipe($.sourcemaps.write('.'))
-        .pipe(gulp.dest('dist'));
+        .pipe(gulp.dest('docs'));
 });
 
 
 //js
 gulp.task('js', function() {
-    gulp.src('lib/js/*.js')
+    return gulp.src('lib/js/*.js')
         .pipe($.sourcemaps.init())
         .pipe($.babel({
             presets: ['es2015']
@@ -41,17 +41,17 @@ gulp.task('js', function() {
         .pipe($.concat('main.js'))
         .pipe($.uglify())
         .pipe($.sourcemaps.write('.'))
-        .pipe(gulp.dest('dist'));
+        .pipe(gulp.dest('docs'));
 });
 
 
 //html
-gulp.task('html', function() {
-    gulp.src('lib/index.html')
-        .pipe($.inlineSource({rootpath:'dist'}))
+gulp.task('html', ['styles'], function() {
+    return gulp.src('lib/index.html')
+        .pipe($.inlineSource({rootpath:'docs'}))
         .pipe($.htmlmin({
             collapseWhitespace: true,
             sortAttributes: true
         }))
-        .pipe(gulp.dest('dist'));
+        .pipe(gulp.dest('docs'));
 });
