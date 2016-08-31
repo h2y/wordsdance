@@ -2,6 +2,8 @@
 
 HTML5 单页面展示的华丽文字特效，CSS3 + JS 实现。
 
+可用于给喜欢的人显示一些自己想说的话 -.-
+
 创意来源：[h2y/idea/#5](https://github.com/h2y/idea/issues/5)
 
 
@@ -9,7 +11,7 @@ HTML5 单页面展示的华丽文字特效，CSS3 + JS 实现。
 
 __请点击链接：[Github Page](https://h2y.github.io/wordsdance/i.html?0=%C2%A1feliz%20cumplea%C3%B1os!&5=Bon%20Anniversaire&10=Alles%20Gute%20Zum%20Geburtstag!&15=%D1%81%20%D0%B4%D0%B5%D0%BD%D1%8C%20%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F&20=Hro%27nia%20Polla%27!!!&25=%E3%81%8A%E8%AF%9E%E7%94%9F%E6%97%A5%E3%81%8A%E3%82%81%E3%81%A7%E3%81%A8%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99&30=%E7%94%9F%E6%97%A5%E5%BF%AB%E4%B9%90%EF%BC%81&time0=3000)__
 
-![图片预览](https://cloud.githubusercontent.com/assets/12909077/18115257/8983443c-6f70-11e6-8623-4a902a9f53ef.png)
+![图片预览](https://cloud.githubusercontent.com/assets/12909077/18115301/f3a676e0-6f70-11e6-919e-f6a53b24b908.png)
 
 
 ## 用法
