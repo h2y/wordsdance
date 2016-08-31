@@ -1,0 +1,19 @@
+body {
+  background-color: #82dda4;
+  transition: background-color 2s;
+}
+#stage {
+  text-align: center;
+}
+#stage p {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 45%;
+}
+#stage i {
+  font-style: normal;
+  color: #fff;
+  text-shadow: 0 0 10px #000;
+  margin: 0 .5rem;
+}
