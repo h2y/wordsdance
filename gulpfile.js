@@ -47,7 +47,7 @@ gulp.task('js', function() {
 
 //html
 gulp.task('html', ['styles'], function() {
-    return gulp.src('lib/index.html')
+    return gulp.src('lib/i.html')
         .pipe($.inlineSource({rootpath:'docs'}))
         .pipe($.htmlmin({
             collapseWhitespace: true,
