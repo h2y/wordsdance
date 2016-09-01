@@ -9,16 +9,16 @@ HTML5 单页面展示的华丽文字特效，CSS3 + JS 实现。
 
 ## 预览
 
-__请点击链接：[Github Page](https://h2y.github.io/wordsdance/i.html?0=%C2%A1feliz%20cumplea%C3%B1os!&5=Bon%20Anniversaire&10=Alles%20Gute%20Zum%20Geburtstag!&15=%D1%81%20%D0%B4%D0%B5%D0%BD%D1%8C%20%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F&20=Hro%27nia%20Polla%27!!!&25=%E3%81%8A%E8%AF%9E%E7%94%9F%E6%97%A5%E3%81%8A%E3%82%81%E3%81%A7%E3%81%A8%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99&30=%E7%94%9F%E6%97%A5%E5%BF%AB%E4%B9%90%EF%BC%81&time0=3000&speed=slow)__
+__请点击链接：[Github Page](https://h2y.github.io/wordsdance/i.html#0=%C2%A1feliz%20cumplea%C3%B1os!&5=Bon%20Anniversaire&10=Alles%20Gute%20Zum%20Geburtstag!&15=%D1%81%20%D0%B4%D0%B5%D0%BD%D1%8C%20%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F&20=Hro%27nia%20Polla%27!!!&25=%E3%81%8A%E8%AF%9E%E7%94%9F%E6%97%A5%E3%81%8A%E3%82%81%E3%81%A7%E3%81%A8%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99&30=%E7%94%9F%E6%97%A5%E5%BF%AB%E4%B9%90%EF%BC%81&time0=3000&speed=slow)__
 
 ![图片预览](https://cloud.githubusercontent.com/assets/12909077/18115301/f3a676e0-6f70-11e6-919e-f6a53b24b908.png)
 
 
 ## 用法
 
-单页面 web 应用，地址：<https://h2y.github.io/wordsdance/i.html>
+单页面 web 应用，地址：<https://h2y.github.io/wordsdance/i.html#HASH>
 
-通过 GET 来设定信息显示的文字内容，以及其他设置项：
+通过链接末尾的 HASH 来设定信息显示的文字内容，以及其他设置项：
 
 |Key            |Value                                        |
 |:--------------|:--------------------------------------------|
@@ -31,9 +31,9 @@ __请点击链接：[Github Page](https://h2y.github.io/wordsdance/i.html?0=%C2%
 
 **例子：**
 
-- [**?0=**第一句话**&5=**the second**&time0=**2000**&time5=**6000](https://h2y.github.io/wordsdance/i.html?0=第一句话&5=the second&time0=2000&time5=6000)
-- [**?15=**FIRST!**&25=**这句话字体必须缩小呢**&size=**5**&size25=**3](https://h2y.github.io/wordsdance/i.html?15=FIRST!&25=这句话字体必须缩小呢&size=5&size25=3)
-- [**?1=**fast**&2=**change**&time=**2000**&speed=**fast](https://h2y.github.io/wordsdance/i.html?1=fast&2=change&time=2000&speed=fast)
+- [**#0=**第一句话**&5=**the second**&time0=**2000**&time5=**6000](https://h2y.github.io/wordsdance/i.html#0=第一句话&5=the second&time0=2000&time5=6000)
+- [**#15=**FIRST!**&25=**这句话字体必须缩小呢**&size=**5**&size25=**3](https://h2y.github.io/wordsdance/i.html#15=FIRST!&25=这句话字体必须缩小呢&size=5&size25=3)
+- [**#1=**fast**&2=**change**&time=**2000**&speed=**fast](https://h2y.github.io/wordsdance/i.html#1=fast&2=change&time=2000&speed=fast)
 
 
 ## 实现
@@ -43,3 +43,5 @@ __请点击链接：[Github Page](https://h2y.github.io/wordsdance/i.html?0=%C2%
 是通过 CSS3 的 transition / transform 两个属性魔法般的实现这样的特效。
 
 transition 设定好动画的持续时间，然后用 JS 修改 transform 为想要达到的特效，中间的补间动画都会由浏览器自动渲染好。
+
+简直不能再畅快了！(ฅ´ω`ฅ)

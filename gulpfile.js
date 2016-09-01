@@ -20,13 +20,13 @@ gulp.task('default', function() {
 gulp.task('styles', function() {
     //less & css
     return gulp.src(['lib/styles/*.less', 'lib/styles/*.css'])
-        .pipe($.sourcemaps.init())
+        //.pipe($.sourcemaps.init())
         .pipe($.concat('style.css'))
         .pipe($.less())
         .pipe($.autoprefixer({
             browsers: ['> 5% in CN']
         }))
-        .pipe($.sourcemaps.write('.'))
+        //.pipe($.sourcemaps.write('.'))
         .pipe(gulp.dest('docs'));
 });
 
