@@ -31,9 +31,9 @@ __请点击链接：[Github Page](https://h2y.github.io/wordsdance/i.html#0=%C2%
 
 **例子：**
 
-- [**#0=**第一句话**&5=**the second**&time0=**2000**&time5=**6000](https://h2y.github.io/wordsdance/i.html#0=第一句话&5=the second&time0=2000&time5=6000)
-- [**#15=**FIRST!**&25=**这句话字体必须缩小呢**&size=**5**&size25=**3](https://h2y.github.io/wordsdance/i.html#15=FIRST!&25=这句话字体必须缩小呢&size=5&size25=3)
-- [**#1=**fast**&2=**change**&time=**2000**&speed=**fast](https://h2y.github.io/wordsdance/i.html#1=fast&2=change&time=2000&speed=fast)
+- [#0=第一句话&5=the second&time0=2000&time5=6000](https://h2y.github.io/wordsdance/i.html#0=第一句话&5=the%20second&time0=2000&time5=6000)
+- [#15=FIRST!&25=这句话字体必须缩小呢&size=5&size25=3](https://h2y.github.io/wordsdance/i.html#15=FIRST!&25=这句话字体必须缩小呢&size=5&size25=3)
+- [#1=fast&2=change&time=2000&speed=fast](https://h2y.github.io/wordsdance/i.html#1=fast&2=change&time=2000&speed=fast)
 
 
 ## 实现
